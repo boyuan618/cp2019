@@ -37,7 +37,7 @@ def luhn(num):
 #print(luhn(4148634548477385))
 
 
-f = open('1/credit_num.txt', 'r')
+f = open('credit_num.txt', 'r')
 lines = f.readlines()
 accepted = []
 for i in lines:
